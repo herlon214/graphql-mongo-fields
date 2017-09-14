@@ -7,7 +7,6 @@ const
  * Return a string
  */
 module.exports = (info) => {
-    let fields = R.map(parse, graphqlFields(info))
     let response = ''
 
     const parse = (item) => {
@@ -25,6 +24,8 @@ module.exports = (info) => {
           R.forEachObjIndexed((childValue, childKey) => fieldsToString(`${key}.`, childValue, childKey), value)
         }
     }
+
+    let fields = R.map(parse, graphqlFields(info))
   
     R.forEachObjIndexed((value, key) => fieldsToString('', value, key), fields)
   
