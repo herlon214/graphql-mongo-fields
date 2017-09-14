@@ -1,0 +1,30 @@
+{
+  "name": "graphql-mongo-fields",
+  "version": "1.0.0",
+  "description": "A graphql fields parser to use as mongo select()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herlon214/graphql-mongo-fields.git"
+  },
+  "keywords": [
+    "graphql",
+    "mongodb",
+    "fields",
+    "select",
+    "project"
+  ],
+  "author": "Herlon Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herlon214/graphql-mongo-fields/issues"
+  },
+  "homepage": "https://github.com/herlon214/graphql-mongo-fields#readme",
+  "dependencies": {
+    "graphql-fields": "^1.0.2",
+    "ramda": "^0.24.1"
+  }
+}
