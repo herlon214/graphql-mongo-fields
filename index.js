@@ -18,7 +18,7 @@ module.exports = (info) => {
     }
     
     const fieldsToString = (prefix, value, key) => {
-        if(value === true) {
+        if(value === true && parseInt(key) == NaN) {
           response += `${prefix}${key}: 1 `
         }else {
           R.forEachObjIndexed((childValue, childKey) => fieldsToString(`${key}.`, childValue, childKey), value)
