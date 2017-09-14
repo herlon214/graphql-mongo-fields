@@ -7,5 +7,5 @@ const
  * Return a string
  */
 module.exports = (info) => {
-    return graphqlFields(info)
+    return parse(graphqlFields(info))
   }
