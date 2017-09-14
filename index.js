@@ -18,6 +18,9 @@ const fieldsToString = (prefix, value, key) => {
 }
     
 
+/**
+ * Return a string
+ */
 module.exports = (info) => {
     let fields = R.map(parse, graphqlFields(info))
     let response = ''
