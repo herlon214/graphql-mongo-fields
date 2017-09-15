@@ -1,11 +1,9 @@
-const 
-    parse = require('./parse'),
+const
+    { parse } = require('./lib'),
     graphqlFields = require('graphql-fields')
     
 
 /**
- * Return a string
+ * Return a parsed string
  */
-module.exports = (info) => {
-    return parse(graphqlFields(info))
-  }
+module.exports = (info) => parse(graphqlFields(info))

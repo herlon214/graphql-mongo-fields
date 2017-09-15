@@ -1,5 +1,5 @@
 const assert = require('assert')
-const parse = require('../parse')
+const { parse } = require('../lib')
 
 describe(`Parse objects`, () => {
     it('should parse correctly', () => {
