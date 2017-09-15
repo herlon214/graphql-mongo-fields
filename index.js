@@ -1,5 +1,5 @@
 const
-    { parse } = require('./lib'),
+    { parse } = require('./src/lib'),
     graphqlFields = require('graphql-fields')
     
 
