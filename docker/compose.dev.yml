@@ -1,0 +1,9 @@
+version: '2'
+services:
+  graphql-mongo-fields:
+    container_name: graphql-mf
+    command: tail -f /dev/null
+    image: node:wheezy
+    volumes:
+      - ../:/opt/app
+    working_dir: /opt/app

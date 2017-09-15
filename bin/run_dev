@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "[ tearing up docker-compose ]"
+docker-compose --file=docker/compose.dev.yml up -d
+echo "[ entering the container ]"
+docker exec -it graphql-mf bash
+echo "[ tering down docker-compose ]"
