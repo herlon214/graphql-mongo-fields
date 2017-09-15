@@ -38,3 +38,9 @@ const handler = async (_, args, context, info) => {
     return users
 }
 ```
+
+## Development
+
+You can use docker to develop in this project. If you run the `bin/run_dev` command you'll enter in a Docker container with the `node:wheezy` image and volumes mounted in `/opt/app`. Then is just start to coding :)
+
+Feel free to contribute ❤
