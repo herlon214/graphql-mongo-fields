@@ -43,4 +43,6 @@ const handler = async (_, args, context, info) => {
 
 You can use docker to develop in this project. If you run the `bin/run_dev` command you'll enter in a Docker container with the `node:wheezy` image and volumes mounted in `/opt/app`. Then is just start to coding :)
 
-Feel free to contribute ❤
+Don't forget to put the tests in the `test/` folder and run typing `npm run test`. 
+
+_Feel free to contribute_ *❤*
