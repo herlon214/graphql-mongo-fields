@@ -1,6 +1,10 @@
 # GraphQL Mongo Fields
 
+![](https://david-dm.org/herlon214/graphl-mongo-fields.svg)
+
 Convert a GraphlQL fields in a MongoDB select string.
+
+[![https://nodei.co/npm/graphql-mongo-fields.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/graphql-mongo-fields.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/graphql-mongo-fields)
 
 ## Example
 Consider the following query:
@@ -21,7 +25,7 @@ This module transforms the GraphQL fields into a string to select fields in Mong
 'foo.bar.foo = 1'
 ```
 
-# Usage
+## Usage
 
 ```js
 const parseFields = require('graphql-mongo-fields')
